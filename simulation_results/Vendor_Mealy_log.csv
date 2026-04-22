@@ -1,0 +1,150 @@
+sep=;
+time;model_id;model_name;port_name;data
+0;1;input;;0.01
+0;2;fifteen;;state_no:3 init:0 tran:0 ax:0
+0;3;ten;;state_no:2 init:0 tran:0 ax:0
+0;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0;5;five;;state_no:1 init:0 tran:0 ax:0
+0;6;zero;;state_no:0 init:1 tran:0 ax:0
+0.01;1;input;out;0
+0.01;1;input;;0.01
+0.01;2;fifteen;;state_no:3 init:0 tran:0 ax:0
+0.01;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.01;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.01;5;five;;state_no:1 init:0 tran:0 ax:0
+0.01;6;zero;;state_no:0 init:1 tran:0 ax:0
+0.011;3;ten;;state_no:2 init:0 tran:1 ax:0
+0.011;5;five;;state_no:1 init:0 tran:1 ax:0
+0.011;6;zero;out;0
+0.011;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.02;1;input;out;1
+0.02;1;input;;0.01
+0.02;2;fifteen;;state_no:3 init:0 tran:0 ax:0
+0.02;3;ten;;state_no:2 init:0 tran:0 ax:1
+0.02;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.02;5;five;;state_no:1 init:0 tran:1 ax:0
+0.02;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.021;3;ten;out;1
+0.021;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.021;4;twenty;;state_no:4 init:0 tran:1 ax:0
+0.03;1;input;out;1
+0.03;1;input;;0.01
+0.03;2;fifteen;;state_no:3 init:0 tran:0 ax:0
+0.03;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.03;4;twenty;;state_no:4 init:0 tran:0 ax:1
+0.03;5;five;;state_no:1 init:0 tran:1 ax:0
+0.03;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.031;4;twenty;out;1
+0.031;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.031;6;zero;;state_no:0 init:0 tran:1 ax:0
+0.04;1;input;out;3
+0.04;1;input;;0.01
+0.04;2;fifteen;;state_no:3 init:0 tran:0 ax:0
+0.04;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.04;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.04;5;five;;state_no:1 init:0 tran:1 ax:0
+0.04;6;zero;;state_no:0 init:0 tran:0 ax:1
+0.041;3;ten;;state_no:2 init:0 tran:1 ax:0
+0.041;5;five;;state_no:1 init:0 tran:1 ax:0
+0.041;6;zero;out;3
+0.041;6;zero;acting;1
+0.041;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.05;1;input;out;0
+0.05;1;input;;0.01
+0.05;2;fifteen;;state_no:3 init:0 tran:0 ax:0
+0.05;3;ten;;state_no:2 init:0 tran:1 ax:0
+0.05;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.05;5;five;;state_no:1 init:0 tran:0 ax:1
+0.05;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.051;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.051;3;ten;;state_no:2 init:0 tran:1 ax:0
+0.051;5;five;out;0
+0.051;5;five;;state_no:1 init:0 tran:0 ax:0
+0.06;1;input;out;0
+0.06;1;input;;0.01
+0.06;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.06;3;ten;;state_no:2 init:0 tran:0 ax:1
+0.06;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.06;5;five;;state_no:1 init:0 tran:0 ax:0
+0.06;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.061;3;ten;out;0
+0.061;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.061;4;twenty;;state_no:4 init:0 tran:1 ax:0
+0.07;1;input;out;1
+0.07;1;input;;0.01
+0.07;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.07;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.07;4;twenty;;state_no:4 init:0 tran:0 ax:1
+0.07;5;five;;state_no:1 init:0 tran:0 ax:0
+0.07;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.071;4;twenty;out;1
+0.071;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.071;6;zero;;state_no:0 init:0 tran:1 ax:0
+0.08;1;input;out;3
+0.08;1;input;;0.01
+0.08;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.08;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.08;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.08;5;five;;state_no:1 init:0 tran:0 ax:0
+0.08;6;zero;;state_no:0 init:0 tran:0 ax:1
+0.081;3;ten;;state_no:2 init:0 tran:1 ax:0
+0.081;5;five;;state_no:1 init:0 tran:1 ax:0
+0.081;6;zero;out;3
+0.081;6;zero;acting;1
+0.081;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.09;1;input;out;0
+0.09;1;input;;0.01
+0.09;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.09;3;ten;;state_no:2 init:0 tran:1 ax:0
+0.09;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.09;5;five;;state_no:1 init:0 tran:0 ax:1
+0.09;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.091;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.091;3;ten;;state_no:2 init:0 tran:1 ax:0
+0.091;5;five;out;0
+0.091;5;five;;state_no:1 init:0 tran:0 ax:0
+0.1;1;input;out;0
+0.1;1;input;;0.01
+0.1;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.1;3;ten;;state_no:2 init:0 tran:0 ax:1
+0.1;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.1;5;five;;state_no:1 init:0 tran:0 ax:0
+0.1;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.101;3;ten;out;0
+0.101;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.101;4;twenty;;state_no:4 init:0 tran:1 ax:0
+0.11;1;input;out;1
+0.11;1;input;;0.01
+0.11;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.11;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.11;4;twenty;;state_no:4 init:0 tran:0 ax:1
+0.11;5;five;;state_no:1 init:0 tran:0 ax:0
+0.11;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.111;4;twenty;out;1
+0.111;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.111;6;zero;;state_no:0 init:0 tran:1 ax:0
+0.12;1;input;out;0
+0.12;1;input;;0.01
+0.12;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.12;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.12;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.12;5;five;;state_no:1 init:0 tran:0 ax:0
+0.12;6;zero;;state_no:0 init:0 tran:1 ax:0
+0.13;1;input;out;3
+0.13;1;input;;inf
+0.13;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.13;3;ten;;state_no:2 init:0 tran:0 ax:0
+0.13;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.13;5;five;;state_no:1 init:0 tran:0 ax:0
+0.13;6;zero;;state_no:0 init:0 tran:0 ax:1
+0.131;3;ten;;state_no:2 init:0 tran:1 ax:0
+0.131;5;five;;state_no:1 init:0 tran:1 ax:0
+0.131;6;zero;out;3
+0.131;6;zero;acting;1
+0.131;6;zero;;state_no:0 init:0 tran:0 ax:0
+0.131;1;input;;inf
+0.131;2;fifteen;;state_no:3 init:0 tran:1 ax:0
+0.131;3;ten;;state_no:2 init:0 tran:1 ax:0
+0.131;4;twenty;;state_no:4 init:0 tran:0 ax:0
+0.131;5;five;;state_no:1 init:0 tran:1 ax:0
+0.131;6;zero;;state_no:0 init:0 tran:0 ax:0

@@ -1,0 +1,54 @@
+sep=;
+time;model_id;model_name;port_name;data
+0;1;input;;0.01
+0;2;unlocked;;state_no:1 init:0 tran:0 ax:0
+0;3;locked;;state_no:0 init:1 tran:0 ax:0
+0.01;1;input;out;1
+0.01;1;input;;0.01
+0.01;2;unlocked;;state_no:1 init:0 tran:0 ax:0
+0.01;3;locked;;state_no:0 init:1 tran:0 ax:0
+0.011;2;unlocked;;state_no:1 init:0 tran:1 ax:0
+0.011;3;locked;out;1
+0.011;3;locked;;state_no:0 init:0 tran:1 ax:0
+0.02;1;input;out;0
+0.02;1;input;;0.01
+0.02;2;unlocked;;state_no:1 init:0 tran:0 ax:1
+0.02;3;locked;;state_no:0 init:0 tran:1 ax:0
+0.021;2;unlocked;out;0
+0.021;2;unlocked;acting;1
+0.021;2;unlocked;;state_no:1 init:0 tran:1 ax:0
+0.021;3;locked;;state_no:0 init:0 tran:1 ax:0
+0.03;1;input;out;1
+0.03;1;input;;0.01
+0.03;2;unlocked;;state_no:1 init:0 tran:1 ax:0
+0.03;3;locked;;state_no:0 init:0 tran:0 ax:1
+0.031;2;unlocked;;state_no:1 init:0 tran:1 ax:0
+0.031;3;locked;out;1
+0.031;3;locked;acting;1
+0.031;3;locked;;state_no:0 init:0 tran:1 ax:0
+0.04;1;input;out;0
+0.04;1;input;;0.01
+0.04;2;unlocked;;state_no:1 init:0 tran:0 ax:1
+0.04;3;locked;;state_no:0 init:0 tran:1 ax:0
+0.041;2;unlocked;out;0
+0.041;2;unlocked;acting;1
+0.041;2;unlocked;;state_no:1 init:0 tran:1 ax:0
+0.041;3;locked;;state_no:0 init:0 tran:1 ax:0
+0.05;1;input;out;0
+0.05;1;input;;0.01
+0.05;2;unlocked;;state_no:1 init:0 tran:0 ax:1
+0.05;3;locked;;state_no:0 init:0 tran:1 ax:0
+0.051;2;unlocked;out;0
+0.051;2;unlocked;;state_no:1 init:0 tran:1 ax:0
+0.051;3;locked;;state_no:0 init:0 tran:1 ax:0
+0.06;1;input;out;1
+0.06;1;input;;inf
+0.06;2;unlocked;;state_no:1 init:0 tran:1 ax:0
+0.06;3;locked;;state_no:0 init:0 tran:0 ax:1
+0.061;2;unlocked;;state_no:1 init:0 tran:1 ax:0
+0.061;3;locked;out;1
+0.061;3;locked;acting;1
+0.061;3;locked;;state_no:0 init:0 tran:1 ax:0
+0.061;1;input;;inf
+0.061;2;unlocked;;state_no:1 init:0 tran:1 ax:0
+0.061;3;locked;;state_no:0 init:0 tran:1 ax:0

@@ -1,0 +1,369 @@
+sep=;
+time;model_id;model_name;port_name;data
+0;1;depositing;;code:7 phase:0 value:7 is_event:0
+0;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0;4;confirming;;code:5 phase:0 value:5 is_event:0
+0;5;input;;0.01
+0;6;inputingamount;;code:4 phase:0 value:4 is_event:0
+0;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0;8;withdrawing;;code:3 phase:0 value:3 is_event:0
+0;9;selectingtransactions;;code:2 phase:0 value:2 is_event:0
+0;10;checkingpin;;code:1 phase:0 value:1 is_event:0
+0;11;idle;;code:0 phase:1 value:0 is_event:0
+0.01;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.01;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.01;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.01;4;confirming;;code:5 phase:0 value:5 is_event:0
+0.01;5;input;out;0
+0.01;5;input;;0.01
+0.01;6;inputingamount;;code:4 phase:0 value:4 is_event:0
+0.01;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.01;8;withdrawing;;code:3 phase:0 value:3 is_event:0
+0.01;9;selectingtransactions;;code:2 phase:0 value:2 is_event:0
+0.01;10;checkingpin;;code:1 phase:0 value:1 is_event:0
+0.01;11;idle;;code:0 phase:1 value:0 is_event:1
+0.01;10;checkingpin;;code:1 phase:1 value:1 is_event:0
+0.01;11;idle;transition_out;1
+0.01;11;idle;;code:0 phase:0 value:0 is_event:1
+0.01;10;checkingpin;state_out;1
+0.01;10;checkingpin;;code:1 phase:1 value:1 is_event:0
+0.02;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.02;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.02;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.02;4;confirming;;code:5 phase:0 value:5 is_event:0
+0.02;5;input;out;0
+0.02;5;input;;0.01
+0.02;6;inputingamount;;code:4 phase:0 value:4 is_event:0
+0.02;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.02;8;withdrawing;;code:3 phase:0 value:3 is_event:0
+0.02;9;selectingtransactions;;code:2 phase:0 value:2 is_event:0
+0.02;10;checkingpin;;code:1 phase:1 value:1 is_event:1
+0.02;11;idle;;code:0 phase:0 value:0 is_event:1
+0.02;10;checkingpin;error_out;-999
+0.02;10;checkingpin;;code:1 phase:1 value:1 is_event:1
+0.03;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.03;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.03;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.03;4;confirming;;code:5 phase:0 value:5 is_event:0
+0.03;5;input;out;2
+0.03;5;input;;0.01
+0.03;6;inputingamount;;code:4 phase:0 value:4 is_event:0
+0.03;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.03;8;withdrawing;;code:3 phase:0 value:3 is_event:0
+0.03;9;selectingtransactions;;code:2 phase:0 value:2 is_event:0
+0.03;10;checkingpin;;code:1 phase:1 value:1 is_event:1
+0.03;11;idle;;code:0 phase:0 value:0 is_event:1
+0.03;9;selectingtransactions;;code:2 phase:1 value:2 is_event:0
+0.03;10;checkingpin;transition_out;2
+0.03;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.03;11;idle;;code:0 phase:0 value:0 is_event:1
+0.03;9;selectingtransactions;state_out;2
+0.03;9;selectingtransactions;;code:2 phase:1 value:2 is_event:0
+0.04;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.04;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.04;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.04;4;confirming;;code:5 phase:0 value:5 is_event:0
+0.04;5;input;out;3
+0.04;5;input;;0.01
+0.04;6;inputingamount;;code:4 phase:0 value:4 is_event:0
+0.04;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.04;8;withdrawing;;code:3 phase:0 value:3 is_event:0
+0.04;9;selectingtransactions;;code:2 phase:1 value:2 is_event:1
+0.04;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.04;11;idle;;code:0 phase:0 value:0 is_event:1
+0.04;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.04;8;withdrawing;;code:3 phase:1 value:3 is_event:0
+0.04;9;selectingtransactions;transition_out;3
+0.04;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.04;8;withdrawing;state_out;3
+0.04;8;withdrawing;;code:3 phase:1 value:3 is_event:0
+0.05;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.05;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.05;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.05;4;confirming;;code:5 phase:0 value:5 is_event:0
+0.05;5;input;out;4
+0.05;5;input;;0.01
+0.05;6;inputingamount;;code:4 phase:0 value:4 is_event:0
+0.05;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.05;8;withdrawing;;code:3 phase:1 value:3 is_event:1
+0.05;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.05;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.05;11;idle;;code:0 phase:0 value:0 is_event:1
+0.05;6;inputingamount;;code:4 phase:1 value:4 is_event:0
+0.05;8;withdrawing;transition_out;4
+0.05;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.05;6;inputingamount;state_out;4
+0.05;6;inputingamount;;code:4 phase:1 value:4 is_event:0
+0.06;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.06;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.06;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.06;4;confirming;;code:5 phase:0 value:5 is_event:0
+0.06;5;input;out;5
+0.06;5;input;;0.01
+0.06;6;inputingamount;;code:4 phase:1 value:4 is_event:1
+0.06;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.06;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.06;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.06;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.06;11;idle;;code:0 phase:0 value:0 is_event:1
+0.06;4;confirming;;code:5 phase:1 value:5 is_event:0
+0.06;6;inputingamount;transition_out;5
+0.06;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.06;4;confirming;state_out;5
+0.06;4;confirming;;code:5 phase:1 value:5 is_event:0
+0.07;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.07;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.07;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.07;4;confirming;;code:5 phase:1 value:5 is_event:1
+0.07;5;input;out;6
+0.07;5;input;;0.01
+0.07;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.07;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.07;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.07;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.07;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.07;11;idle;;code:0 phase:0 value:0 is_event:1
+0.07;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.07;4;confirming;transition_out;4
+0.07;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.07;6;inputingamount;;code:4 phase:1 value:4 is_event:0
+0.07;6;inputingamount;state_out;4
+0.07;6;inputingamount;;code:4 phase:1 value:4 is_event:0
+0.08;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.08;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.08;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.08;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.08;5;input;out;5
+0.08;5;input;;0.01
+0.08;6;inputingamount;;code:4 phase:1 value:4 is_event:1
+0.08;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.08;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.08;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.08;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.08;11;idle;;code:0 phase:0 value:0 is_event:1
+0.08;4;confirming;;code:5 phase:1 value:5 is_event:0
+0.08;6;inputingamount;transition_out;5
+0.08;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.08;4;confirming;state_out;5
+0.08;4;confirming;;code:5 phase:1 value:5 is_event:0
+0.09;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.09;2;withdrawaldone;;code:6 phase:0 value:6 is_event:0
+0.09;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.09;4;confirming;;code:5 phase:1 value:5 is_event:1
+0.09;5;input;out;7
+0.09;5;input;;0.01
+0.09;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.09;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.09;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.09;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.09;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.09;11;idle;;code:0 phase:0 value:0 is_event:1
+0.09;2;withdrawaldone;;code:6 phase:1 value:6 is_event:0
+0.09;4;confirming;transition_out;6
+0.09;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.09;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.09;2;withdrawaldone;state_out;6
+0.09;2;withdrawaldone;;code:6 phase:1 value:6 is_event:0
+0.1;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.1;2;withdrawaldone;;code:6 phase:1 value:6 is_event:1
+0.1;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.1;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.1;5;input;out;8
+0.1;5;input;;0.01
+0.1;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.1;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.1;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.1;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.1;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.1;11;idle;;code:0 phase:0 value:0 is_event:1
+0.1;2;withdrawaldone;transition_out;0
+0.1;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.1;11;idle;;code:0 phase:1 value:0 is_event:0
+0.1;11;idle;state_out;0
+0.1;11;idle;;code:0 phase:1 value:0 is_event:0
+0.11;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.11;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.11;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.11;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.11;5;input;out;0
+0.11;5;input;;0.01
+0.11;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.11;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.11;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.11;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.11;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.11;11;idle;;code:0 phase:1 value:0 is_event:1
+0.11;10;checkingpin;;code:1 phase:1 value:1 is_event:0
+0.11;11;idle;transition_out;1
+0.11;11;idle;;code:0 phase:0 value:0 is_event:1
+0.11;10;checkingpin;state_out;1
+0.11;10;checkingpin;;code:1 phase:1 value:1 is_event:0
+0.12;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.12;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.12;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.12;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.12;5;input;out;1
+0.12;5;input;;0.01
+0.12;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.12;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.12;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.12;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.12;10;checkingpin;;code:1 phase:1 value:1 is_event:1
+0.12;11;idle;;code:0 phase:0 value:0 is_event:1
+0.12;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.12;10;checkingpin;transition_out;0
+0.12;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.12;11;idle;;code:0 phase:1 value:0 is_event:0
+0.12;11;idle;state_out;0
+0.12;11;idle;;code:0 phase:1 value:0 is_event:0
+0.13;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.13;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.13;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.13;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.13;5;input;out;0
+0.13;5;input;;0.01
+0.13;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.13;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.13;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.13;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.13;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.13;11;idle;;code:0 phase:1 value:0 is_event:1
+0.13;10;checkingpin;;code:1 phase:1 value:1 is_event:0
+0.13;11;idle;transition_out;1
+0.13;11;idle;;code:0 phase:0 value:0 is_event:1
+0.13;10;checkingpin;state_out;1
+0.13;10;checkingpin;;code:1 phase:1 value:1 is_event:0
+0.14;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.14;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.14;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.14;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.14;5;input;out;1
+0.14;5;input;;0.01
+0.14;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.14;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.14;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.14;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.14;10;checkingpin;;code:1 phase:1 value:1 is_event:1
+0.14;11;idle;;code:0 phase:0 value:0 is_event:1
+0.14;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.14;10;checkingpin;transition_out;0
+0.14;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.14;11;idle;;code:0 phase:1 value:0 is_event:0
+0.14;11;idle;state_out;0
+0.14;11;idle;;code:0 phase:1 value:0 is_event:0
+0.15;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.15;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.15;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.15;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.15;5;input;out;0
+0.15;5;input;;0.01
+0.15;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.15;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.15;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.15;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.15;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.15;11;idle;;code:0 phase:1 value:0 is_event:1
+0.15;10;checkingpin;;code:1 phase:1 value:1 is_event:0
+0.15;11;idle;transition_out;1
+0.15;11;idle;;code:0 phase:0 value:0 is_event:1
+0.15;10;checkingpin;state_out;1
+0.15;10;checkingpin;;code:1 phase:1 value:1 is_event:0
+0.16;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.16;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.16;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.16;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.16;5;input;out;2
+0.16;5;input;;0.01
+0.16;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.16;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.16;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.16;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.16;10;checkingpin;;code:1 phase:1 value:1 is_event:1
+0.16;11;idle;;code:0 phase:0 value:0 is_event:1
+0.16;9;selectingtransactions;;code:2 phase:1 value:2 is_event:0
+0.16;10;checkingpin;transition_out;2
+0.16;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.16;11;idle;;code:0 phase:0 value:0 is_event:1
+0.16;9;selectingtransactions;state_out;2
+0.16;9;selectingtransactions;;code:2 phase:1 value:2 is_event:0
+0.17;1;depositing;;code:7 phase:0 value:7 is_event:0
+0.17;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.17;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.17;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.17;5;input;out;9
+0.17;5;input;;0.01
+0.17;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.17;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.17;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.17;9;selectingtransactions;;code:2 phase:1 value:2 is_event:1
+0.17;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.17;11;idle;;code:0 phase:0 value:0 is_event:1
+0.17;1;depositing;;code:7 phase:1 value:7 is_event:0
+0.17;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.17;9;selectingtransactions;transition_out;7
+0.17;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.17;1;depositing;state_out;7
+0.17;1;depositing;;code:7 phase:1 value:7 is_event:0
+0.18;1;depositing;;code:7 phase:1 value:7 is_event:1
+0.18;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.18;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.18;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.18;5;input;out;4
+0.18;5;input;;0.01
+0.18;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.18;7;insertingmoney;;code:8 phase:0 value:8 is_event:0
+0.18;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.18;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.18;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.18;11;idle;;code:0 phase:0 value:0 is_event:1
+0.18;1;depositing;transition_out;8
+0.18;1;depositing;;code:7 phase:0 value:7 is_event:1
+0.18;7;insertingmoney;;code:8 phase:1 value:8 is_event:0
+0.18;7;insertingmoney;state_out;8
+0.18;7;insertingmoney;;code:8 phase:1 value:8 is_event:0
+0.19;1;depositing;;code:7 phase:0 value:7 is_event:1
+0.19;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.19;3;depositdone;;code:9 phase:0 value:9 is_event:0
+0.19;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.19;5;input;out;10
+0.19;5;input;;0.01
+0.19;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.19;7;insertingmoney;;code:8 phase:1 value:8 is_event:1
+0.19;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.19;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.19;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.19;11;idle;;code:0 phase:0 value:0 is_event:1
+0.19;3;depositdone;;code:9 phase:1 value:9 is_event:0
+0.19;7;insertingmoney;transition_out;9
+0.19;7;insertingmoney;;code:8 phase:0 value:8 is_event:1
+0.19;3;depositdone;state_out;9
+0.19;3;depositdone;;code:9 phase:1 value:9 is_event:0
+0.2;1;depositing;;code:7 phase:0 value:7 is_event:1
+0.2;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.2;3;depositdone;;code:9 phase:1 value:9 is_event:1
+0.2;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.2;5;input;out;8
+0.2;5;input;;inf
+0.2;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.2;7;insertingmoney;;code:8 phase:0 value:8 is_event:1
+0.2;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.2;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.2;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.2;11;idle;;code:0 phase:0 value:0 is_event:1
+0.2;3;depositdone;transition_out;0
+0.2;3;depositdone;;code:9 phase:0 value:9 is_event:1
+0.2;11;idle;;code:0 phase:1 value:0 is_event:0
+0.2;11;idle;state_out;0
+0.2;11;idle;;code:0 phase:1 value:0 is_event:0
+0.2;1;depositing;;code:7 phase:0 value:7 is_event:1
+0.2;2;withdrawaldone;;code:6 phase:0 value:6 is_event:1
+0.2;3;depositdone;;code:9 phase:0 value:9 is_event:1
+0.2;4;confirming;;code:5 phase:0 value:5 is_event:1
+0.2;5;input;;inf
+0.2;6;inputingamount;;code:4 phase:0 value:4 is_event:1
+0.2;7;insertingmoney;;code:8 phase:0 value:8 is_event:1
+0.2;8;withdrawing;;code:3 phase:0 value:3 is_event:1
+0.2;9;selectingtransactions;;code:2 phase:0 value:2 is_event:1
+0.2;10;checkingpin;;code:1 phase:0 value:1 is_event:1
+0.2;11;idle;;code:0 phase:1 value:0 is_event:0

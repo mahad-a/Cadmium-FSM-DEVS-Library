@@ -1,0 +1,100 @@
+sep=;
+time;model_id;model_name;port_name;data
+0;1;triggered;;code:2 phase:0 value:2 is_event:0
+0;2;input;;0.01
+0;3;armed;;code:1 phase:0 value:1 is_event:0
+0;4;disarmed;;code:0 phase:1 value:0 is_event:0
+0.01;1;triggered;;code:2 phase:0 value:2 is_event:0
+0.01;2;input;out;0
+0.01;2;input;;0.01
+0.01;3;armed;;code:1 phase:0 value:1 is_event:0
+0.01;4;disarmed;;code:0 phase:1 value:0 is_event:1
+0.01;3;armed;;code:1 phase:1 value:1 is_event:0
+0.01;4;disarmed;transition_out;1
+0.01;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.01;3;armed;state_out;1
+0.01;3;armed;;code:1 phase:1 value:1 is_event:0
+0.02;1;triggered;;code:2 phase:0 value:2 is_event:0
+0.02;2;input;out;2
+0.02;2;input;;0.01
+0.02;3;armed;;code:1 phase:1 value:1 is_event:1
+0.02;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.02;1;triggered;;code:2 phase:1 value:2 is_event:0
+0.02;3;armed;transition_out;2
+0.02;3;armed;;code:1 phase:0 value:1 is_event:1
+0.02;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.02;1;triggered;state_out;2
+0.02;1;triggered;;code:2 phase:1 value:2 is_event:0
+0.03;1;triggered;;code:2 phase:1 value:2 is_event:1
+0.03;2;input;out;3
+0.03;2;input;;0.01
+0.03;3;armed;;code:1 phase:0 value:1 is_event:1
+0.03;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.03;1;triggered;transition_out;0
+0.03;1;triggered;;code:2 phase:0 value:2 is_event:1
+0.03;4;disarmed;;code:0 phase:1 value:0 is_event:0
+0.03;4;disarmed;state_out;0
+0.03;4;disarmed;;code:0 phase:1 value:0 is_event:0
+0.04;1;triggered;;code:2 phase:0 value:2 is_event:1
+0.04;2;input;out;1
+0.04;2;input;;0.01
+0.04;3;armed;;code:1 phase:0 value:1 is_event:1
+0.04;4;disarmed;;code:0 phase:1 value:0 is_event:1
+0.04;4;disarmed;error_out;-999
+0.04;4;disarmed;;code:0 phase:1 value:0 is_event:1
+0.05;1;triggered;;code:2 phase:0 value:2 is_event:1
+0.05;2;input;out;0
+0.05;2;input;;0.01
+0.05;3;armed;;code:1 phase:0 value:1 is_event:1
+0.05;4;disarmed;;code:0 phase:1 value:0 is_event:1
+0.05;3;armed;;code:1 phase:1 value:1 is_event:0
+0.05;4;disarmed;transition_out;1
+0.05;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.05;3;armed;state_out;1
+0.05;3;armed;;code:1 phase:1 value:1 is_event:0
+0.06;1;triggered;;code:2 phase:0 value:2 is_event:1
+0.06;2;input;out;2
+0.06;2;input;;0.01
+0.06;3;armed;;code:1 phase:1 value:1 is_event:1
+0.06;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.06;1;triggered;;code:2 phase:1 value:2 is_event:0
+0.06;3;armed;transition_out;2
+0.06;3;armed;;code:1 phase:0 value:1 is_event:1
+0.06;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.06;1;triggered;state_out;2
+0.06;1;triggered;;code:2 phase:1 value:2 is_event:0
+0.07;1;triggered;;code:2 phase:1 value:2 is_event:1
+0.07;2;input;out;1
+0.07;2;input;;0.01
+0.07;3;armed;;code:1 phase:0 value:1 is_event:1
+0.07;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.07;1;triggered;transition_out;0
+0.07;1;triggered;;code:2 phase:0 value:2 is_event:1
+0.07;4;disarmed;;code:0 phase:1 value:0 is_event:0
+0.07;4;disarmed;state_out;0
+0.07;4;disarmed;;code:0 phase:1 value:0 is_event:0
+0.08;1;triggered;;code:2 phase:0 value:2 is_event:1
+0.08;2;input;out;0
+0.08;2;input;;0.01
+0.08;3;armed;;code:1 phase:0 value:1 is_event:1
+0.08;4;disarmed;;code:0 phase:1 value:0 is_event:1
+0.08;3;armed;;code:1 phase:1 value:1 is_event:0
+0.08;4;disarmed;transition_out;1
+0.08;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.08;3;armed;state_out;1
+0.08;3;armed;;code:1 phase:1 value:1 is_event:0
+0.09;1;triggered;;code:2 phase:0 value:2 is_event:1
+0.09;2;input;out;1
+0.09;2;input;;inf
+0.09;3;armed;;code:1 phase:1 value:1 is_event:1
+0.09;4;disarmed;;code:0 phase:0 value:0 is_event:1
+0.09;1;triggered;;code:2 phase:0 value:2 is_event:1
+0.09;3;armed;transition_out;0
+0.09;3;armed;;code:1 phase:0 value:1 is_event:1
+0.09;4;disarmed;;code:0 phase:1 value:0 is_event:0
+0.09;4;disarmed;state_out;0
+0.09;4;disarmed;;code:0 phase:1 value:0 is_event:0
+0.09;1;triggered;;code:2 phase:0 value:2 is_event:1
+0.09;2;input;;inf
+0.09;3;armed;;code:1 phase:0 value:1 is_event:1
+0.09;4;disarmed;;code:0 phase:1 value:0 is_event:0

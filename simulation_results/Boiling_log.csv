@@ -1,0 +1,146 @@
+sep=;
+time;model_id;model_name;port_name;data
+0;1;input;;0.01
+0;2;cooling;;state_no:3 init:0 tran:0 ax:0
+0;3;boiling;;state_no:2 init:0 tran:0 ax:0
+0;4;heating;;state_no:1 init:0 tran:0 ax:0
+0;5;cold;;state_no:0 init:1 tran:0 ax:0
+0.01;1;input;out;0
+0.01;1;input;;0.01
+0.01;2;cooling;;state_no:3 init:0 tran:0 ax:0
+0.01;3;boiling;;state_no:2 init:0 tran:0 ax:0
+0.01;4;heating;;state_no:1 init:0 tran:0 ax:0
+0.01;5;cold;;state_no:0 init:1 tran:0 ax:0
+0.011;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.011;5;cold;out;0
+0.011;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.02;1;input;out;0
+0.02;1;input;;0.01
+0.02;2;cooling;;state_no:3 init:0 tran:0 ax:0
+0.02;3;boiling;;state_no:2 init:0 tran:0 ax:0
+0.02;4;heating;;state_no:1 init:0 tran:0 ax:1
+0.02;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.021;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.021;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.021;4;heating;out;0
+0.021;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.03;1;input;out;0
+0.03;1;input;;0.01
+0.03;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.03;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.03;4;heating;;state_no:1 init:0 tran:0 ax:1
+0.03;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.031;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.031;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.031;4;heating;out;0
+0.031;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.04;1;input;out;2
+0.04;1;input;;0.01
+0.04;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.04;3;boiling;;state_no:2 init:0 tran:0 ax:1
+0.04;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.04;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.041;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.041;3;boiling;out;2
+0.041;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.05;1;input;out;0
+0.05;1;input;;0.01
+0.05;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.05;3;boiling;;state_no:2 init:0 tran:0 ax:1
+0.05;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.05;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.051;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.051;3;boiling;out;0
+0.051;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.06;1;input;out;1
+0.06;1;input;;0.01
+0.06;2;cooling;;state_no:3 init:0 tran:0 ax:1
+0.06;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.06;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.06;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.061;2;cooling;out;1
+0.061;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.061;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.061;5;cold;;state_no:0 init:0 tran:1 ax:0
+0.07;1;input;out;1
+0.07;1;input;;0.01
+0.07;2;cooling;;state_no:3 init:0 tran:0 ax:1
+0.07;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.07;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.07;5;cold;;state_no:0 init:0 tran:1 ax:0
+0.071;2;cooling;out;1
+0.071;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.071;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.071;5;cold;;state_no:0 init:0 tran:1 ax:0
+0.08;1;input;out;3
+0.08;1;input;;0.01
+0.08;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.08;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.08;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.08;5;cold;;state_no:0 init:0 tran:0 ax:1
+0.081;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.081;5;cold;out;3
+0.081;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.09;1;input;out;0
+0.09;1;input;;0.01
+0.09;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.09;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.09;4;heating;;state_no:1 init:0 tran:0 ax:1
+0.09;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.091;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.091;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.091;4;heating;out;0
+0.091;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.1;1;input;out;1
+0.1;1;input;;0.01
+0.1;2;cooling;;state_no:3 init:0 tran:0 ax:1
+0.1;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.1;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.1;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.101;2;cooling;out;1
+0.101;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.101;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.101;5;cold;;state_no:0 init:0 tran:1 ax:0
+0.11;1;input;out;3
+0.11;1;input;;0.01
+0.11;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.11;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.11;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.11;5;cold;;state_no:0 init:0 tran:0 ax:1
+0.111;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.111;5;cold;out;3
+0.111;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.12;1;input;out;0
+0.12;1;input;;0.01
+0.12;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.12;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.12;4;heating;;state_no:1 init:0 tran:0 ax:1
+0.12;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.121;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.121;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.121;4;heating;out;0
+0.121;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.13;1;input;out;1
+0.13;1;input;;0.01
+0.13;2;cooling;;state_no:3 init:0 tran:0 ax:1
+0.13;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.13;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.13;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.131;2;cooling;out;1
+0.131;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.131;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.131;5;cold;;state_no:0 init:0 tran:1 ax:0
+0.14;1;input;out;3
+0.14;1;input;;inf
+0.14;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.14;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.14;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.14;5;cold;;state_no:0 init:0 tran:0 ax:1
+0.141;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.141;5;cold;out;3
+0.141;5;cold;;state_no:0 init:0 tran:0 ax:0
+0.141;1;input;;inf
+0.141;2;cooling;;state_no:3 init:0 tran:1 ax:0
+0.141;3;boiling;;state_no:2 init:0 tran:1 ax:0
+0.141;4;heating;;state_no:1 init:0 tran:1 ax:0
+0.141;5;cold;;state_no:0 init:0 tran:0 ax:0
