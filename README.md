@@ -85,3 +85,10 @@ Each script runs a single FSM simulation and writes its CSV log to `simulation_r
 - Turnstile
 - Debounce Filter
 - Sequence Detector "101"
+
+## Developers
+
+Project was co-developed by:
+* Mahad Ahmed - 101220427
+* Yusuf Ibrahim - 101231208
+
